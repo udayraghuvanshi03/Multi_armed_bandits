@@ -33,4 +33,7 @@ Both average reward and % Optimal action curves were plotted. Both contain 5 cur
 - ε-greedy (Q1 = 5, ε = 0.1)
 - UCB (c = 2)
 
+<img src="Images/ucb-greedy_reward.png" width="700" height="400">
+<img src="Images/ucb-greddy_action.png" width="700" height="400">
+
  
