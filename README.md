@@ -21,5 +21,7 @@ For each reward curve, confidence bands are also plotted corresponding to (1.96Ã
 <img src="Images/e-greedy_reward.png" width="700" height="400">
 <img src="Images/e-greedy-action.png" width="700" height="400">
 
+## Optimistic Initialization and UCB Algorithm
+
 
  
