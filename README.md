@@ -18,8 +18,8 @@ In this, the q4 function in main.py forms a Bandit testbed using the 'BanditEnv'
 Implemented the ε-greedy algorithm with incremental updates. Used 2000 steps with 2000 independent runs. The function q6 in main.py forms the Bandit environment, takes a list of agents with varying epsilon values, and calculates the average reward and the number of times optimal action was taken. In the agent.py file, the EpsilonGreedy class chooses action and then updates it. Update happens dynamically if no step size is given. For the reward plot, an extra constant upper bound line is added corresponding to the best possible average performance in the trials, based on the known true expected rewards q∗(a). 
 For each reward curve, confidence bands are also plotted corresponding to (1.96× standard error) of the rewards. The standard error of the mean is defined as the standard deviation divided by √n: (σ/√n)
 
-<img src="Images/ucb-greedy_reward.png" alt="Dataset" width="700" height="400">
-<img src="Images/ucb-greddy_action.png" alt="Dataset" width="700" height="400">
+<img src="Images/e-greedy_rewards.png" alt="Dataset" width="700" height="400">
+<img src="Images/e-greedy-action.png" alt="Dataset" width="700" height="400">
 
 
  
