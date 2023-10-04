@@ -22,6 +22,11 @@ For each reward curve, confidence bands are also plotted corresponding to (1.96�
 <img src="Images/e-greedy-action.png" width="700" height="400">
 
 ## Optimistic Initialization and UCB Algorithm
-
+Implement the ε-greedy algorithm with optimistic initial values, and the bandit algorithm with UCB action selection. Used 1000 steps with 2000 trials. Both average reward and % Optimal action curves were plotted. Both contain 5 curves:
+- ε-greedy (Q1 = 0, ε = 0)
+- ε-greedy (Q1 = 5, ε = 0)
+- ε-greedy (Q1 = 0, ε = 0.1)
+- ε-greedy (Q1 = 5, ε = 0.1)
+- UCB (c = 2)
 
  
